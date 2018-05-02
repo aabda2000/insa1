@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^posts/index$ index.php?controller=posts&action=index
+RewriteRule ^posts/show/([0-9]+)$  index.php?controller=posts&action=show&id=$1
+ 
